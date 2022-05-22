@@ -1,0 +1,110 @@
+/*Google Fonts*/
+@import url('https://fonts.googleleapis.com/css2family=Poppins');
+
+/*For All*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.active{
+    color: whitesmoke;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/*Navigation Bar*/
+.navbar{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+}
+.nav-links li{
+    margin: 0 30px;
+    color: whitesmoke;
+    font-size: 2vmax;
+}
+.heading{
+    font-size: 3.2vmax;
+}
+
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('T1.jpg');
+    background-position:top;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-content{
+    font-size: 2.6vmax;
+    margin-top: 60vh;
+    color: black;
+    margin-right: 40vh;
+}
+
+.Line{
+    width: 18vw;
+    height: 6px;
+    background: whitesmoke;
+}
+
+.lnmore{
+    margin-top:10%;
+    padding: 8px 15px;
+    background: darkgoldenrod;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+.menu-btn{
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    width: 30px;
+    cursor: pointer;
+}
+
+/*Mobile device*/
+@media only screen and (max-width: 850px){
+    .navbar{
+        padding: 0;
+    }
+    .heading{
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+    .nav-links{
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        background: darkgoldenrod;
+        margin-top: -900px;
+    }
+    .mobile-menu{
+        margin-top: 0px;
+    }
+    .nav-links li{
+        margin: 30px auto;
+    }
+}
