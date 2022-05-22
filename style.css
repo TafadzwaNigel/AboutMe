@@ -1,0 +1,75 @@
+/*Google Fonts*/
+@import url('https://fonts.googleleapis.com/css2family=Poppins');
+
+/*For All*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+/*Navigation Bar*/
+.navbar{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+}
+.nav-links li{
+    margin: 0 30px;
+    color: whitesmoke;
+}
+.heading{
+    font-size: 3.2vmax;
+}
+
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('T1.jpg');
+    background-position:top;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-content{
+    font-size: 2.6vmax;
+    margin-top: 60vh;
+    color: black;
+    margin-right: 40vh;
+}
+
+.Line{
+    width: 18vw;
+    height: 6px;
+    background: whitesmoke;
+}
+
+.lnmore{
+    margin-top:10%;
+    padding: 8px 15px;
+    background: darkgoldenrod;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+
+/*Mobile device*/
+@media only screen and (max-width: 850px){
+    .navbar{
+        padding: 0;
+    }
+}
