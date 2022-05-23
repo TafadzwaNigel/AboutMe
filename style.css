@@ -83,6 +83,21 @@ header{
     cursor: pointer;
 }
 
+/*About Me Page*/
+.servicesBox{
+    width: 40vw;
+    height: 40vh;
+    bottom: 10px;
+    background-color: rgba(37, 27, 27,0.3);
+}
+header h2{
+    display: inline;
+}
+.profilePic{
+    width: 40px;
+    height: 40px;
+}
+
 /*Mobile device*/
 @media only screen and (max-width: 850px){
     .navbar{
